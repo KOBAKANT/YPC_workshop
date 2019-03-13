@@ -43,10 +43,10 @@ Serial.println(buttonState);
   for(int c=0;c<255;c=c+1){
     colorR=colorR-1;
     colorG=colorG+1;
-     analogWrite(R,colorR);
+      analogWrite(R,colorR);
      analogWrite(G,colorG);
      
-     delay(1);
+     delay(20);
   }
  for(int c=0;c<255;c=c+1){
     colorG=colorG-1;
@@ -54,7 +54,7 @@ Serial.println(buttonState);
      analogWrite(G,colorG);
      analogWrite(B,colorB);
     
-     delay(1);
+     delay(20);
   }
  for(int c=0;c<255;c=c+1){
     colorB=colorB-1;
@@ -62,7 +62,7 @@ Serial.println(buttonState);
      analogWrite(B,colorB);
      analogWrite(R,colorR);
      
-     delay(1);
+     delay(20);
   }
   
   }
